@@ -2350,7 +2350,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #1D809F;
+  background-color: #a722a7;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -6655,7 +6655,7 @@ textarea.form-control-lg {
 }
 
 .text-bg-primary {
-  color: #fff !important;
+  color: #6610f2 !important;
   background-color: RGBA(29, 128, 159, var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -10959,7 +10959,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/f-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10982,7 +10982,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #7d36ff;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11014,21 +11014,27 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/f-5.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.masthead h1, .masthead .h1 {
+.masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: #d63384;
+}
+h3, .mb-5{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
   }
-  .masthead h1, .masthead .h1 {
+  .masthead h1 .masthead .h1 {
     font-size: 5.5rem;
   }
 }
@@ -11108,3 +11114,83 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  background-image: url(../assets/img/bg.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+   
+}
+form img{
+    width: 70px;
+    margin-bottom: 25px;
+}
+ form .input-container{
+  position: relative;
+}
+ form > .input-container > i{
+ padding: 14px;
+ border-radius: 50%;
+ background-color: #7d36ff;
+ color: #fcfef7;
+ position: absolute;
+ font-size: 20px;
+ top: 7px;
+ right: 8px;
+}
+.input-container > input{
+  padding: 20px 50px 20px 15px;
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 35px;
+  background-color: transparent;
+  border: 2px solid #6f42c1;
+  font-size: 16px;
+  outline: none;
+  color: #fcfef7;
+}
+::placeholder{
+  color: #fcfef7;
+  font-size: 16px;
+}
+form a{
+  display: block;
+  color: #fcfef7;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+.btn{
+  background-color: #7d36ff;
+  padding: 14px 45px;
+  border: 0;
+  box-shadow:0 0 20px rgb(0, 0, 0.2);
+  border-radius: 25px;
+  color: #fcfefc;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn >form{
+  background-color: #7d36ff;
+  padding: 14px 45px;
+  border: 0;
+  box-shadow:0 0 20px rgb(0, 0, 0.2);
+  border-radius: 25px;
+  color: #fcfefc;
+  cursor: pointer;
+  font-size: 20px;
+}
+.perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;}
