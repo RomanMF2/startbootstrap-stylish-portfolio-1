@@ -11120,7 +11120,7 @@ h3, .mb-5{
   box-sizing: border-box;
 }
 form{
-  background-image: url(../assets/img/bg.png);
+  background-image: url(dist/assets/img/bg.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
